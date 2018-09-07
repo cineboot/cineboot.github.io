@@ -1,0 +1,76 @@
+
+h1{
+	display: left, inline-block;
+	color:black;
+	text-align: left;
+	font-family: Times;
+	font-style: bold;
+	font-size: x-large;
+	margin-left: 500px;
+}
+
+h2{
+	text-align: left;
+	color: blue;
+	position: top;
+	margin-left: 470px;
+}
+
+h3{
+	color:black;
+	text-align: center;
+	font-family: Times;
+	font-size: small;
+	position: top;
+}
+
+table{
+	background-color: WHITE;
+	color:black;
+	text-align: center;
+	font-family: Times;
+	font-size: larger;
+	margin-left: 34px;
+	margin-right: 330px;
+	margin-bottom: 26px;
+	margin-top: 20px;
+	clear: both;
+}
+
+td{
+	height: 30px;
+	width: 500px;
+}
+a{
+	text-decoration: none;
+	color: black; 
+}
+
+img {
+	width: 8%;
+	display: inline;
+	white-space: nowrap;
+	align-self: middle;
+}
+
+body{
+    background-image: url(internship3.png);
+	display: table;
+	background-size: 21%;
+	background-position: 1125px 125px;
+	background-repeat: no-repeat;
+}
+
+p{ 
+	width: 304px;
+	color: DarkSlateGrey;
+	float:left;
+	font-size: small;
+	line-height: 155%;
+	font-family: times;
+	font-style: normal;
+	text-align: justify;
+	size: portrait;
+	margin-left: 54px;
+	margin-top: 1px;
+}
