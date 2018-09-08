@@ -1,0 +1,80 @@
+h1{
+	display: left, inline-block;
+	color:white;
+	text-align: left;
+	font-family: Times;
+	font-style: bold;
+	font-size: x-large;
+	margin-left: 517px;
+}
+
+h2{
+	text-align: left;
+	color: white;
+	position: top;
+	margin-left: 500px;
+}
+
+h3{
+	color:white;
+	text-align: center;
+	font-family: Times;
+	font-size: small;
+	position: top;
+}
+
+table{
+	background-color: grey;
+	color:black;
+	text-align: center;
+	font-family: Times;
+	font-size: larger;
+	margin-left: 44px;
+	margin-right: 290px;
+	margin-bottom: 26px;
+	clear: both;
+}
+
+td{
+	height: 30px;
+	width: 500px;
+}
+a{
+	text-decoration: none;
+	color: black; 
+}
+
+body{
+    background-image: url(circleimage2.png);
+	display: table;
+	background-size: cover;
+	background-repeat: no-repeat;
+	animation-name: change;
+	animation-duration: 20s;
+	animation-iteration-count: 4;
+}
+
+@keyframes change{
+	25% {background-image: url(circleimage2.jpg);}
+	50% {background-image: url(circleimage3.jpg);}
+	100% {background-image: url(circleimage9.jpg);}
+}
+div.preload-images{
+	background: url(circleimage2.jpg);
+	background: url(circleimage2.jpg),
+	url(circleimage3.jpg),
+	url(circleimage9.jpg);
+}
+
+p{ 
+	width: 320px;
+	color: white;
+	float:left;
+	font-size: 25;
+	line-height: 185%;
+	font-family: lucida, serif;
+	text-align: justify;
+	size: portrait;
+	margin-left: 54px;
+	margin-bottom: 30px;
+}
