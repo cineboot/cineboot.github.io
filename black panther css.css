@@ -1,0 +1,64 @@
+h1{
+	display: left, inline-block;
+	color:white;
+	text-align: left;
+	font-family: Times;
+	font-style: bold;
+	font-size: x-large;
+	margin-left: 590px;
+}
+
+h2{
+	text-align: left;
+	color: white;
+	position: top;
+	margin-left: 555px;
+}
+
+h3{
+	color:white;
+	text-align: center;
+	font-family: Times;
+	font-size: small;
+	position: top;
+}
+
+table{
+	background-color: grey;
+	color:black;
+	text-align: center;
+	font-family: Times;
+	font-size: larger;
+	margin-left: 135px;
+	margin-right: 190px;
+	margin-bottom: 26px;
+	clear: both;
+}
+
+td{
+	height: 30px;
+	width: 500px;
+}
+a{
+	text-decoration: none;
+	color: black; 
+}
+
+body{
+    background-image: url(Blackpanther3.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+p{ 
+	width: 320px;
+	color: white;
+	float:left;
+	font-size: 25;
+	line-height: 165%;
+	font-family: Georgia, serif;
+	text-align: justify;
+	margin-left: 54px;
+	margin-bottom: 30px;
+	margin-top: 1px;
+}
